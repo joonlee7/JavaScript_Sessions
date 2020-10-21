@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2 id="header">Photot Gallery Project</h2>
+
+    <p id="image">Hover over an image to display explaination here.</p>
+
+    <button onclick="openExplain()">Explain photos</button>
+    <button onclick="closeExplain()">Hide explaination</button>
+
+    <p id="content">These are my favorite oriental noodles.</p>
+
+    <hr />
+
+    <img src="images/pho.jpg" alt="Pho" height="100" width="200" 
+        onmouseover="doOver(this)" onmouseout="doOut()" />
+    <img src="images/ramen.jpg" alt="Ramen" height="100" width="200" 
+        onmouseover="doOver(this)" onmouseout="doOut()" />
+    <img src="images/pad_thai.jpg" alt="Pad Thai" height="100" width="200" 
+        onmouseover="doOver(this)" onmouseout="doOut()" />
+    <img src="images/jjajangmyeon.jpg" alt="Jjajangmyeon" height="100" width="200" 
+        onmouseover="doOver(this)" onmouseout="doOut()" />
+    <img src="images/lo_mein.jpg" alt="Lo Mein" height="100" width="200" 
+        onmouseover="doOver(this)" onmouseout="doOut()" />
+
+    <script src="myscript.js"></script>
+
+</body>
+
+</html>
